@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <!-- set the character set -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- first step to a responsive site -->
+    <title>The Most Popular National Parks</title>
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" />
+    <link rel="stylesheet" href=style.css />
+    <!-- Your styles should be called here -->
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+  </head>
+
+  <body>
+    <!-- YOUR CONTENT GOES HERE -->
+    <div class="container">
+      <h1>National Parks</h1>
+      <p>This list represents the twelve most popular national parks. Please use the dropdowns to filter the items by region, notable land features, and annual visitation numbers.</p>
+      <div class="flex filter">
+        <div>
+          <select id="region" class="filter">
+            <option value="item">Region...</option>
+            <option value="northeast">Northeast</option>
+            <option value="southeast">Southeast</option>
+            <option value="midwest">Midwest</option>
+            <option value="intermountain">Intermountain</option>
+            <option value="pacific-west">Pacific West</option>
+          </select>
+        </div>
+        <div>
+          <select id="features" class="filter">
+            <option value="item">Feature...</option>
+            <option value="mountains">Mountains</option>
+            <option value="canyons">Canyons</option>
+            <option value="volcanoes">Volcanoes</option>
+            <option value="hydrothermal">Hydrothermal activity</option>
+            <option value="rock-formations">Rock formations</option>
+            <option value="deserts">Deserts</option>
+            <option value="forests">Forests</option>
+            <option value="waterfalls">Waterfalls</option>
+          </select>
+        </div>
+        <div>
+          <select id="visitation" class="filter">
+            <option value="item">Visitation...</option>
+            <option value="least">Fewer than 3 million visitors</option>
+            <option value="middle">Between 3 and 6 million visitors</option>
+            <option value="most">More than 6 million visitors</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="container photo">
+      <section class="flex">
+        <div class="item active  most southeast mountains forests">
+          <img src="https://i0.wp.com/passionpassport.com/wp-content/uploads/2017/11/zack-kudsen-3.jpg?w=2048&ssl=1" />
+          <h3>Great Smoky Mountains National Park</h3>
+        </div>
+
+        <div class="item active  middle intermountain volcanoes canyons hydrothermal">
+          <img src="https://koa.com/blog/images/secrets-of-yellowstone-np.jpg?preset=blogPhoto" />
+          <h3>Yellowstone National Park</h3>
+        </div>
+
+        <div class="item active  middle pacific-west canyons rock-formations">
+          <img src="https://www.familycantravel.com/wp-content/uploads/2019/06/Hiking-Angels-Landing-in-Zion-National-Park-3.jpg" />
+          <h3>Zion National Park</h3>
+        </div>
+
+        <div class="item active  middle intermountain mountains forests">
+          <img src="https://www.cruiseamerica.com/getattachment/f18cae53-fc46-427b-be0e-a1c0d2e315f7/attachment.aspx" />
+          <h3>Rocky Mountain National Park</h3>
+        </div>
+
+        <div class="item active  middle intermountain mountains">
+          <img src="https://i1.wp.com/www.reneeroaming.com/wp-content/uploads/2020/05/The-Ultimate-Guide-to-Exploring-Grand-Teton-National-Park.jpg?fit=2000%2C1125&ssl=1" />
+          <h3>Grand Teton National Park</h3>
+        </div>
+
+        <div class="item active  least pacific-west canyons">
+          <img src="https://media.cntraveler.com/photos/5ebeef63f52f4c0911cac483/master/pass/GrandCanyonNationalPark-2020-GettyImages-858637934.jpg" />
+          <h3>Grand Canyon National Park</h3>
+        </div>
+
+        <div class="item active  least midwest waterfalls">
+          <img src="https://static.getmatcha.com/image/upload/s--cOlmQBrs--/f_auto,q_auto,t_rr_large_natural/mcxqpwvxf3bhjxpsrpq5.jpg" />
+          <h3>Cuyahoga Valley National Park</h3>
+        </div>
+
+        <div class="item active  least northeast mountains">
+          <img src="https://www.national-park.com/wp-content/uploads/2016/04/Welcome-to-Acadia-National-Park.jpeg" />
+          <h3>Acadia National Park</h3>
+        </div>
+
+        <div class="item active  least pacific-west forests">
+          <img src="https://wildlandtrekking.com/content/uploads/2020/03/image1-12-2.jpg" />
+          <h3>Olympic National Park</h3>
+        </div>
+
+        <div class="item active  least pacific-west deserts">
+          <img src="https://youimg1.tripcdn.com/target/100u1f000001gq9rcBB8D_C_750_500.jpg?proc=source%2Ftrip" />
+          <h3>Joshua Tree National Park</h3>
+        </div>
+
+        <div class="item active  middle intermountain mountains">
+          <img src="https://imagesvc.meredithcorp.io/v3/mm/image?q=85&c=sc&poi=face&w=1600&h=1067&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F28%2F2020%2F01%2Fglacier-national-park-GLACIERSIGNS0120.jpg" />
+          <h3>Glacier National Park</h3>
+        </div>
+
+        <div class="item active  least intermountain deserts">
+          <img src="https://www.national-park.com/wp-content/uploads/2016/04/Welcome-to-Bryce-Canyon-National-Park.jpg" />
+          <h3>Bryce Canyon National Park</h3>
+        </div>
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+
+  </body>
+
+</html>
